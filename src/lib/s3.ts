@@ -36,7 +36,9 @@ export async function uploadToS3(file: File) {
 
     await upload;
     return Promise.resolve({ file_key, file_name: file.name });
-  } catch (error) {}
+  } catch (error) {
+    console.log("S3 ======>", error);
+  }
 }
 
 export function getS3Url(file_key: string) {

@@ -40,3 +40,8 @@ VE -> Vector Embedding
 PineConeDb -> Vector DB
 ![Alt text](rag-explanation.png)
 Added toast using react hot toast
+
+Pinecone DB ->
+
+Index is a database to store all you vectors
+Namespace is a table. That stores vector data. It is a space for segment vector pdfs.

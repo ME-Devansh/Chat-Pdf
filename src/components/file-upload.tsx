@@ -43,6 +43,7 @@ const FileUpload = () => {
         }
         mutate(data, {
           onSuccess: (data) => {
+            console.log("%c Line:46 🍖", "color:#ea7e5c", data);
             toast.success(data.message);
           },
           onError: () => {
